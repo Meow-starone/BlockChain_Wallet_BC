@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "blueimp-md5": "^2.10.0",
+    "es6-promise": "^4.2.4",
+    "ethereumjs-util": "^5.1.2",
+    "ethereumjs-wallet": "^0.6.0",
+    "fastclick": "^1.0.6",
+    "identicon.js": "^2.3.1",
+    "light-sdk": "^1.0.24",
+    "swiper": "^4.2.0",
+    "uuid": "^3.1.0",
+    "vue-awesome-swiper": "^2.6.2",
+    "web3": "https://github.com/ethereum/web3.js"
+  }
+}

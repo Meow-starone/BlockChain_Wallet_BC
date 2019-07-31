@@ -1,0 +1,16 @@
+{
+  "project":"newtonApp",
+  "version":"0.0.1",
+  "desc":"Just For Fun",
+  "type":"vue",
+  "link_id":"8112734868607293",
+
+  "env":{
+    "default":{
+      "log_level":"debug"
+    },
+    "product":{
+      "log_level":"error"
+    }
+  }
+}

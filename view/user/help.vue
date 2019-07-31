@@ -1,0 +1,54 @@
+
+<template>
+    <div>
+        <ui-header :title="'帮助'"></ui-header>
+        <div class="content">
+       
+        <section class="help-wrap" v-for="(help,index) in helps">
+            <h2 class="help-question">{{help.question}}</h2>
+            <p class="help-answer mat10">{{help.answer}}</p>
+        </section>
+        
+
+
+        <!-- <section class="help-wrap">
+            <h2 class="help-question">牛盾是什么？</h2>
+            <p class="help-answer mat10">牛盾是基于区块链智能合约技术实现的企业内部福利账本，目前主要功能包括牛盾转账、牛盾商城、培训报名及课程点评等，后续还会有更多的功能开发。</p>
+        </section>
+        <section class="help-wrap">
+            <h2 class="help-question">牛盾有哪些特点？</h2>
+            <p class="help-answer mat10">1.牛盾是恒生第一款DAPP，数据和代码跑在区块链上，交易具有公开透明不可篡改性。
+            <br/>
+            2.牛盾具有区块链的去中心开放架构，后期钱包APP代码会内部开源，期待爱动脑的你一起来为牛盾创造更多有趣的应用~
+            <br/>
+            3.区块链智能合约天然具备SaaS化特性，其他企业也能租用，多租户数据绝对隔离。
+            </p>
+        </section>
+        <section class="help-wrap" >
+            <h2 class="help-question">牛盾的获取来源有哪些？</h2>
+            <p class="help-answer mat10">给《恒生技术》投稿，赏！来爱极客做分享，赏！成为EPG过程改进之星，赏！参加编程大赛系列活动，赏！好书推荐读后感，赏！参加项目管理系列活动，赏！作为非常道主讲嘉宾，赏！参与产品经理“启航计划”&架构师“构建未来”活动，赏！分享创造价值，牛盾，让技术人员的创造开发更有意义！
+一言蔽之，请多多关注公司产品技术管理部的活动哟~</p>
+        </section>
+        <section class="help-wrap" style="">
+            <h2 class="help-question">那一长串的密码符文是什么？</h2>
+            <p class="help-answer mat10">这就是你牛盾账户在区块链上的密钥啦，通过导出账户可以把密钥备份，不用手机号登录也可以随时导入密钥登录哦！</p>
+        </section> -->
+        <section class="help-wrap">
+            <p class="help-null">更多疑问，欢迎随时咨询牛盾野生NPC君哥哥</p>
+            <p class="help-num mat10">0571-26693615</p>
+        </section>
+        </div>
+    </div>
+</template>
+<script>
+    export default {
+        data(){
+            return {
+                helps:require("help")
+            }
+        }
+    }
+</script>
+<style lang="less">
+
+</style>
